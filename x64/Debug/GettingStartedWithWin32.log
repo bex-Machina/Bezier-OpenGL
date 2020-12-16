@@ -1,0 +1,25 @@
+﻿  main.cpp
+D:\2020_21 computer science\Computer Graphics\Task 1 (50%) C1 2D Path Creation Tool in OpenGL\FUCK YOU ALI\GettingStartedWithWin32\Utils.h(6,24): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\2020_21 computer science\Computer Graphics\Task 1 (50%) C1 2D Path Creation Tool in OpenGL\FUCK YOU ALI\GettingStartedWithWin32\main.cpp(98,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\2020_21 computer science\Computer Graphics\Task 1 (50%) C1 2D Path Creation Tool in OpenGL\FUCK YOU ALI\GettingStartedWithWin32\main.cpp(99,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\2020_21 computer science\Computer Graphics\Task 1 (50%) C1 2D Path Creation Tool in OpenGL\FUCK YOU ALI\GettingStartedWithWin32\main.cpp(127,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\2020_21 computer science\Computer Graphics\Task 1 (50%) C1 2D Path Creation Tool in OpenGL\FUCK YOU ALI\GettingStartedWithWin32\main.cpp(231,51): warning C4244: 'argument': conversion from 'LPARAM' to 'UINT', possible loss of data
+D:\2020_21 computer science\Computer Graphics\Task 1 (50%) C1 2D Path Creation Tool in OpenGL\FUCK YOU ALI\GettingStartedWithWin32\main.cpp(231,19): warning C4244: 'argument': conversion from 'WPARAM' to 'UINT', possible loss of data
+D:\2020_21 computer science\Computer Graphics\Task 1 (50%) C1 2D Path Creation Tool in OpenGL\FUCK YOU ALI\GettingStartedWithWin32\main.cpp(406,63): warning C4244: 'argument': conversion from 'UINT' to 'float', possible loss of data
+D:\2020_21 computer science\Computer Graphics\Task 1 (50%) C1 2D Path Creation Tool in OpenGL\FUCK YOU ALI\GettingStartedWithWin32\main.cpp(406,56): warning C4244: 'argument': conversion from 'UINT' to 'float', possible loss of data
+D:\2020_21 computer science\Computer Graphics\Task 1 (50%) C1 2D Path Creation Tool in OpenGL\FUCK YOU ALI\GettingStartedWithWin32\main.cpp(420,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\2020_21 computer science\Computer Graphics\Task 1 (50%) C1 2D Path Creation Tool in OpenGL\FUCK YOU ALI\GettingStartedWithWin32\main.cpp(500,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\2020_21 computer science\Computer Graphics\Task 1 (50%) C1 2D Path Creation Tool in OpenGL\FUCK YOU ALI\GettingStartedWithWin32\main.cpp(501,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\2020_21 computer science\Computer Graphics\Task 1 (50%) C1 2D Path Creation Tool in OpenGL\FUCK YOU ALI\GettingStartedWithWin32\main.cpp(552,23): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\2020_21 computer science\Computer Graphics\Task 1 (50%) C1 2D Path Creation Tool in OpenGL\FUCK YOU ALI\GettingStartedWithWin32\main.cpp(553,23): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\2020_21 computer science\Computer Graphics\Task 1 (50%) C1 2D Path Creation Tool in OpenGL\FUCK YOU ALI\GettingStartedWithWin32\main.cpp(567,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\2020_21 computer science\Computer Graphics\Task 1 (50%) C1 2D Path Creation Tool in OpenGL\FUCK YOU ALI\GettingStartedWithWin32\main.cpp(568,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\2020_21 computer science\Computer Graphics\Task 1 (50%) C1 2D Path Creation Tool in OpenGL\FUCK YOU ALI\GettingStartedWithWin32\main.cpp(575,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\2020_21 computer science\Computer Graphics\Task 1 (50%) C1 2D Path Creation Tool in OpenGL\FUCK YOU ALI\GettingStartedWithWin32\main.cpp(576,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\2020_21 computer science\Computer Graphics\Task 1 (50%) C1 2D Path Creation Tool in OpenGL\FUCK YOU ALI\GettingStartedWithWin32\main.cpp(661,36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\2020_21 computer science\Computer Graphics\Task 1 (50%) C1 2D Path Creation Tool in OpenGL\FUCK YOU ALI\GettingStartedWithWin32\main.cpp(686,45): warning C4305: '+=': truncation from 'double' to 'float'
+  practice.cpp
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'D:\2020_21 computer science\Computer Graphics\Task 1 (50%) C1 2D Path Creation Tool in OpenGL\FUCK YOU ALI\GettingStartedWithWin32\x64\Debug\vc120.pdb'; linking object as if no debug info
+  GettingStartedWithWin32.vcxproj -> D:\2020_21 computer science\Computer Graphics\Task 1 (50%) C1 2D Path Creation Tool in OpenGL\FUCK YOU ALI\GettingStartedWithWin32\x64\Debug\GettingStartedWithWin32.exe
