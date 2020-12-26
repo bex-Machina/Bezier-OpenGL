@@ -40,9 +40,9 @@ public:
 
   static void setOrtho(float* matrix, float left, float right, float bottom, float top, float near, float far);
 
-  static float degreesToRadians(const float degrees);
 private:
   // helper method to convert between degrees and radians
+    static float degreesToRadians(const float degrees);
   
 };
 

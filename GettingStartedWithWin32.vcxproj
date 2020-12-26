@@ -144,19 +144,19 @@
     <ClCompile Include="GLSetup.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Matrix.cpp" />
-    <ClCompile Include="practice.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="fragshader.txt" />
-    <Text Include="vertshader.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Curves.h" />
     <ClInclude Include="GLSetup.h" />
     <ClInclude Include="Matrix.h" />
     <ClInclude Include="RenderingContext.h" />
     <ClInclude Include="SavedPoints.h" />
     <ClInclude Include="Utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="fragshaderDiffuse.txt" />
+    <Text Include="fragshaderRadiusFill.txt" />
+    <Text Include="vertshaderDiffuse.txt" />
+    <Text Include="vertshaderRadiusFill.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

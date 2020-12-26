@@ -24,13 +24,6 @@
     <ClCompile Include="Matrix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="practice.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="fragshader.txt" />
-    <Text Include="vertshader.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GLSetup.h">
@@ -48,8 +41,11 @@
     <ClInclude Include="SavedPoints.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Curves.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="vertshaderRadiusFill.txt" />
+    <Text Include="fragshaderDiffuse.txt" />
+    <Text Include="fragshaderRadiusFill.txt" />
+    <Text Include="vertshaderDiffuse.txt" />
   </ItemGroup>
 </Project>

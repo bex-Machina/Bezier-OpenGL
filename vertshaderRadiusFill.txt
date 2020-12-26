@@ -1,0 +1,15 @@
+#version 330
+
+// Material
+uniform mat4 u_mvpmatrix;
+
+// Attributes
+attribute vec2 a_position;
+
+// Varyings
+varying vec2 v_pos;
+
+void main() {
+  v_pos=a_position;
+  gl_Position=u_mvpmatrix*vec4(a_position, 0, 1);
+}

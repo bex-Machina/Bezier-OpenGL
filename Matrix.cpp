@@ -5,14 +5,7 @@
 // Multiplies the lhs matrix by the rhs matrix and stores the result in result: result = lhs x rhs
 void Matrix::multiplyMatrix(float* result, const float* lhs, const float* rhs)
 {
-    //memset(result, 0, sizeof(float) * 16);
- /*   for (size_t row = 0; row < 4; row++) {
-        for (size_t col = 0; col < 4; col++) {
-            for (size_t traverse = 0; traverse < 4; traverse++) {
-                result[row + 4 * col] += lhs[row + 4 * traverse] * rhs[traverse + 4 * col];
-            }
-        }
-    }*/
+
 
     for (int i = 0; i < 4; i++)
     {
@@ -54,16 +47,6 @@ void  Matrix::scale(float* matrix, const float sx, const float sy, const float s
     }
 }
 
-
-/*
-  All 4x4 matrices are assumed to be stored as a 1D array as illustrated below:
-  m[0] m[4] m[8]  m[12]
-  m[1] m[5] m[9]  m[13]
-  m[2] m[6] m[10] m[14]
-  m[3] m[7] m[11] m[15]
-  */
-// Applys a rotation about the x-axis matrix to the matrix provided.  The result is stored back in the same block of memory
-// e.g. matrix = matrix x rotationX (where the rotation matrix is created by the angle provided in degrees)
 void  Matrix::rotateX(float* matrix, const float degs)
 {
     float rad;
@@ -81,8 +64,7 @@ void  Matrix::rotateX(float* matrix, const float degs)
 
 }
 
-// Applys a rotation about the y-axis matrix to the matrix provided.  The result is stored back in the same block of memory
-// e.g. matrix = matrix x rotationY (where the rotation matrix is created by the angle provided in degrees)
+
 void  Matrix::rotateY(float* matrix, const float degs)
 {
 
@@ -100,15 +82,7 @@ void  Matrix::rotateY(float* matrix, const float degs)
 
 }
 
-/*
-  All 4x4 matrices are assumed to be stored as a 1D array as illustrated below:
-  m[0] m[4] m[8]  m[12]
-  m[1] m[5] m[9]  m[13]
-  m[2] m[6] m[10] m[14]
-  m[3] m[7] m[11] m[15]
-  */
-// Applys a rotation about the z-axis matrix to the matrix provided.  The result is stored back in the same block of memory
-// e.g. matrix = matrix x rotationZ (where the rotation matrix is created by the angle provided in degrees)
+
 void  Matrix::rotateZ(float* matrix, const float degs)
 {
 
@@ -128,13 +102,6 @@ void  Matrix::rotateZ(float* matrix, const float degs)
 }
 
 
-/*
-  All 4x4 matrices are assumed to be stored as a 1D array as illustrated below:
-  m[0] m[4] m[8]  m[12]
-  m[1] m[5] m[9]  m[13]
-  m[2] m[6] m[10] m[14]
-  m[3] m[7] m[11] m[15]
-  */
 void Matrix::setOrtho(float* matrix, float left, float right, float bottom, float top, float near, float far)
 {
     memset(matrix, 0, sizeof(float) * 16);
